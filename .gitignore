@@ -13,3 +13,6 @@ venv.bak/
 
 # Checkpoints
 ckpt/
+
+# macOS Files
+.DS_Store

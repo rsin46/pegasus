@@ -43,10 +43,10 @@ setuptools.setup(
         'tensorflow-text==1.15.0rc0',
         'tfds-nightly',
         'tensor2tensor==1.15.0',
-        'tensorflow-gpu==1.15.2',
+        'tensorflow==1.15.2',
     ],
     extras_require={
-        'tensorflow': ['tensorflow-gpu==1.15.2'],
+        'tensorflow': ['tensorflow==1.15.2'],
     },
     classifiers=[
         'Development Status :: 4 - Beta',
