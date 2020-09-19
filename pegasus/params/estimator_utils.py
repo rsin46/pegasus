@@ -60,7 +60,8 @@ def create_estimator(master,
       train_batch_size=model_params.batch_size * num_shards,
       eval_batch_size=model_params.batch_size * num_shards,
       predict_batch_size=model_params.batch_size * num_shards,
-      config=run_config)
+      config=run_config,
+      export_to_tpu=use_tpu)
 
 
 def _estimator_model_fn(use_tpu, model_params, model_dir,
